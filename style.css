@@ -1,0 +1,33 @@
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+h1{
+	font-family:fantasy;
+	font-size: 2em;
+	border-bottom:2px solid blue;
+	border-right :2px solid blue;
+	width:400px;
+	text-align:center;
+	box-shadow: 4px 4px 5px #888888;
+}
+img{
+	width:450px;
+	height:300px;
+	margin:10px;
+	transition: all 1s;
+}
+img:hover
+{
+	transform: scale(1.1);
+}
+h2
+{
+	color:rgb(5,26,56);
+	text-align:center;
+	border:2px solid rgba( 5,26,56,0.5);
+}
+p{
+	color:#Bf607B;
+}
